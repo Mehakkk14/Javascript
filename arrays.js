@@ -45,3 +45,56 @@ for ( let i in arr){
 for (let a in arr){
     console.log(a);
 }
+
+//higher order functions in arrays
+
+let arr = [90, 80, 70, 60, 50];
+
+let a = arr.map((value)=>{
+    return value+2;
+
+})
+console.log(a);
+
+
+let arr2 = [1, 2, 3, 4, 5];
+let b = arr2.filter((value)=>{
+    return value>3;
+})
+
+console.log(b);
+
+let arr3 = [2,5,7,9];
+
+let c = arr3.reduce((a,a2)=>{
+    return a+a2;
+})
+console.log(c);
+
+//practice
+
+let arr = [1, 2, 3, 4, 5];
+let a = prompt("Enter a num:");
+a = Number.parseInt(a);
+arr.push(a);
+console.log(arr);
+
+let age = [10,22,25,30,40,45,50,60];
+let b = age.filter((me)=>{
+    return me%10==0;
+})
+console.log(b);
+
+let nums = [2,3,4,5,6,7];
+let square = nums.map((x)=>{
+    return x*x;
+})
+console.log(square);
+
+let factorial = [1, 2, 3, 4, 5];
+
+let fact = factorial.reduce((x,y)=>{
+    return x*y;
+})
+console.log(fact);
+
