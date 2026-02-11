@@ -88,7 +88,7 @@ console.log(b);
 let nums = [2,3,4,5,6,7];
 let square = nums.map((x)=>{
     return x*x;
-})
+}) 
 console.log(square);
 
 let factorial = [1, 2, 3, 4, 5];
