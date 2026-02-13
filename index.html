@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+<script>
+
+    //Alert, Prompt and Confirm
+    
+    alert("Enter a number");
+    let a = prompt("Enter a number", "0");
+    a= Number.parseInt(a);
+    alert("type of a is "+ typeof(a));
+    let write = confirm("Do you want to write the number on the page?");
+    if(write){
+        document.write(a);
+    }
+    else{
+        document.write("You have cancelled the writing operation.");
+    }
+
+
+    
+</script>
+</html>
