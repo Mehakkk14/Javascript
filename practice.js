@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')()
+/*const prompt = require('prompt-sync')()
 
 function getRandom(min,max){
   return Math.floor(Math.random()*max-min+1+min)
@@ -22,6 +22,9 @@ while(guess != RandomNum){
     let score = 100 - attempts;
     console.log("Your score is: " + score);
   }
-}
+}*/
+
+//1
+
 
 

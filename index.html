@@ -6,12 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
 </body>
 <script>
 
     //Alert, Prompt and Confirm
-    
+
     alert("Enter a number");
     let a = prompt("Enter a number", "0");
     a= Number.parseInt(a);
@@ -23,6 +22,55 @@
     else{
         document.write("You have cancelled the writing operation.");
     }
+
+    document.body.style.backgroundColor = "lightblue";
+
+    //1,2,3
+    let a = prompt("Enter ur age");
+    a = Number.parseInt(a);
+    if(a>18){
+        alert("You can drive!");
+    }
+    else if(a<=0){
+            alert("Enter a valid age");
+    }
+    else{
+        alert("You can't drive!");
+    }
+
+    let b = confirm("Do you want to see the prompt again?");
+    if(b){
+        let a = prompt("Enter ur age");
+        a = Number.parseInt(a);
+        if(a<=0){
+            alert("Enter a valid age");
+        }
+        else if(a>18){
+            alert("You can drive!");
+        }
+        else{
+            alert("You can't drive!");
+        }
+    }
+    else{
+        alert("You have cancelled the operation.");
+    }
+    
+    //4
+    let x = prompt("Enter a number");
+    if(x>4){
+        location.href = "https://www.google.com";
+    }
+    
+    //5
+    let userColor = prompt("Enter a color");
+    document.body.style.backgroundColor = userColor;
+
+
+    
+
+
+
 
 
     
